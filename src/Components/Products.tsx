@@ -13,7 +13,7 @@ const Products = () => {
 
   return (
     <div>
-      <h2>Product Table</h2>
+      <h2>Products</h2>
     </div>
   );
 };
