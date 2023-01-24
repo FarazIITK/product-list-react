@@ -1,9 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ProductTable from './Components/ProductTable';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <h1>Product List</h1>
+      <ProductTable />
+    </div>
+  );
 }
 
 export default App;
