@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { IProduct } from '../Utilities/InterfaceDefinition';
 import axios from 'axios';
 
-const ProductTable = () => {
+const Products = () => {
   const [productData, setProductData] = useState<IProduct[]>([]);
 
   useEffect(() => {
@@ -18,4 +18,4 @@ const ProductTable = () => {
   );
 };
 
-export default ProductTable;
+export default Products;
